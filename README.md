@@ -5,7 +5,7 @@ GitHub/GitLab/Bitbucket Integration (commands & menu items)
 ![Sublime Merge with github, gitlab, bitbucket](screen.png)
 
 Based on research  [Original source](https://forum.sublimetext.com/t/github-gitlab-bitbucket-integration-commands-menu-items/53893)
-by [srbs](https://forum.sublimetext.com/u/srbs)
+by [@srbs](https://github.com/srbs)
 
 ## Install macOS
 
