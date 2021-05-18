@@ -1,0 +1,7 @@
+[
+    {
+        "caption": "🔗 Open Commit $short_commit in GitHub/GitLab/Bitbucket",
+        "command": "git",
+        "args": { "argv": ["open", "commit", "$commit"] }
+    }
+]
