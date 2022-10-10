@@ -9,19 +9,21 @@ by [@srbs](https://github.com/srbs)
 
 ## Install macOS
 
+1. Download zip repository and unarchive
+
 1. Open terminal in folder and run
 
 ```sh
 sh alias
 ```
 
-2. Copy `User` folder to 
+1. Copy `User` folder to 
 
 ```
 ~/Library/Application Support/Sublime Merge/Packages
 ```
 
-3. done :)
+1. done :)
 
 ## Changes
 
