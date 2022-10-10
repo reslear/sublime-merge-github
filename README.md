@@ -45,7 +45,7 @@ git config --global alias.set-line-endings '!f() {
 git config --global alias.open '!f() {
     local action="${1:-branch}"
     local target="${2:-HEAD}"
-    local output="$(python "${APPDATA}~/Library/Application Support/Sublime Merge/Packages/SublimeMergeOobug/online_repo_integration.py" "$action" "$target")"
+    local output="$(python "~/Library/Application Support/Sublime Merge/Packages/SublimeMergeOobug/online_repo_integration.py" "$action" "$target")"
 
     if [ "$output" != "${output#"1: "}" ]; then
         echo "${output#"1: "}"
