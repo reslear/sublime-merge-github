@@ -1,8 +1,8 @@
-# Sublime Merge with github, gitlab, bitbucket integration
+# Sublime Merge with github, gitlab, bitbucket, azure integration
 
-GitHub/GitLab/Bitbucket Integration (commands & menu items)
+Sublime Merge open in GitHub/GitLab/Bitbucket/Azure Integration command & menu item
 
-![Sublime Merge with github, gitlab, bitbucket](screen.png)
+![Sublime Merge with github, gitlab, bitbucket, azure](screen.png)
 
 Based on research  [Original source](https://forum.sublimetext.com/t/github-gitlab-bitbucket-integration-commands-menu-items/53893)
 by [@srbs](https://github.com/srbs)
