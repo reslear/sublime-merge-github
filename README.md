@@ -27,7 +27,7 @@ sh alias
 
 **11.10.2022**
 - Azure support
-- single quotes for commit and brunch
+- single quotes for commit and branch
 
 **18.05.2021**
 - add 🔗 (chain emoji) for better visual ux
