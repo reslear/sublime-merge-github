@@ -51,6 +51,12 @@ git config --global alias.open '!f() {
             [ "$type" = "tag"    ] && repo_url="$repo_url/-/tags/$target"
             [ "$type" = "branch" ] && repo_url="$repo_url/-/tree/$target"
             ;;
+        *azure*)
+            [ "$type" = "commit" ] && repo_url="$repo_url/commit/$(git rev-parse "$target")"
+            [ "$type" = "pr"     ] && repo_url="$repo_url/pullrequestcreate?sourceRef=$target"
+            [ "$type" = "tag"    ] && repo_url="$repo_url?version=GT$target"
+            [ "$type" = "branch" ] && repo_url="$repo_url?version=GB$target"
+            ;;
         *)
             echo "Cannot open: not a GitHub, GitLab, or Bitbucket repository" >&2
             return 1

@@ -1,21 +1,21 @@
 [
     {
-        "caption": "🔗 Open Repository in GitHub/GitLab/Bitbucket",
+        "caption": "🔗 Open Repository in GitHub/GitLab/Bitbucket/Azure",
         "command": "git",
         "args": { "argv": ["open", "repo"] }
     },
     {
-        "caption": "🔗 Open Branch in GitHub/GitLab/Bitbucket…",
+        "caption": "🔗 Open Branch in GitHub/GitLab/Bitbucket/Azure…",
         "command": "git",
         "args": { "argv": ["open", "branch", "$select_branch"] }
     },
     {
-        "caption": "🔗 Create Pull Request in GitHub/GitLab/Bitbucket…",
+        "caption": "🔗 Create Pull Request in GitHub/GitLab/Bitbucket/Azure…",
         "command": "git",
         "args": { "argv": ["open", "pr", "$select_branch"] }
     },
     {
-        "caption": "🔗 Open Tag in GitHub/GitLab/Bitbucket…",
+        "caption": "🔗 Open Tag in GitHub/GitLab/Bitbucket/Azure…",
         "command": "git",
         "args": { "argv": ["open", "tag", "$select_tag"] }
     }
