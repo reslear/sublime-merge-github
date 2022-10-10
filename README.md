@@ -26,3 +26,10 @@ sh alias
 ## Changes
 
 - add 🔗 (chain emoji) for better visual ux
+
+## Related
+
+[SublimeMergeOobug](https://github.com/oobug/SublimeMergeOobug) - Python configuration for Windows
+
+## License
+MIT
