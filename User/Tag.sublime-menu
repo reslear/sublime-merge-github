@@ -1,6 +1,6 @@
 [
     {
-        "caption": "🔗 Open Tag $tag_name in GitHub/GitLab/Bitbucket/Azure",
+        "caption": "🔗 Open Tag '$tag_name' in GitHub/GitLab/Bitbucket/Azure",
         "command": "git",
         "args": { "argv": ["open", "tag", "$tag_name"] }
     }
