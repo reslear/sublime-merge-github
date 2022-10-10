@@ -26,3 +26,15 @@ sh alias
 ## Changes
 
 - add 🔗 (chain emoji) for better visual ux
+
+
+## Scripts
+
+### End line
+
+
+```bash
+git config --global alias.set-line-endings '!f() {                                                               
+    python "~/Library/Application Support/Sublime Merge/Packages/SublimeMergeOobug/set-line-endings.py" $1 $2;
+}; f'
+```
