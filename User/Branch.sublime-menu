@@ -9,5 +9,10 @@
         "caption": "🔗 Create Pull Request on '$branch' in GitHub/GitLab/Bitbucket/Azure",
         "command": "git",
         "args": { "argv": ["open", "pr", "$branch"] }
+    },
+    {
+        "caption": "🔽 Fetch $branch",
+        "command": "git",
+        "args": {"argv": ["fetch", "origin", "$branch:$branch"]}
     }
 ]
