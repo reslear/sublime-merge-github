@@ -66,4 +66,8 @@ git config --global alias.open '!f() {
     open "$repo_url"
 }; f'
 
+git config --global alias.subl '!f() {
+    /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl "$1"
+}; f'
+
 exit 0

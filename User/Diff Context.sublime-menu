@@ -1,0 +1,27 @@
+[
+	{ "caption": "-" },	
+	{
+		"caption": "Open in Sublime Text",
+		"command": "git",
+		"args": { "argv": ["subl", "$path:$line:$col"] }
+	},
+	{
+        "caption": "File History",
+        "command": "search", "args": { "query": "file:\"$path\"" }
+    },
+    {
+        "caption": "Blame",
+        "command": "blame", "args": { "path": "$path" }
+    },
+	{
+        "caption": "Reveal in Finder",
+        "command": "open_dir",
+        "args": { "path": "$working_dir/$path" }
+    },
+    {
+        "caption": "Copy File Path",
+        "command": "copy_to_clipboard",
+        "args": { "text": "$path" }
+    },
+    { "caption": "-" },
+]

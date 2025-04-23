@@ -25,7 +25,26 @@ sh alias
 
 1. done :)
 
-## Changes
+## Features
+
+### Open in Sublime Text
+
+Useful for quickly opening diff context files in [Sublime Text](https://www.sublimetext.com/docs/command_line.html) when you need to fast edit with not main editor.
+
+Additional features:
+- File History
+- Blame
+- Reveal in Finder
+- Copy File Path
+
+
+![Diff context sublime merge menu](./screens/open-sublime-text.png)
+
+
+## Changelog
+
+**23.04.2025**
+- add File History, Blame, Reveal in Finder, Copy File Path
 
 **11.10.2022**
 - Azure support
