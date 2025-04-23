@@ -31,14 +31,14 @@ sh alias
 
 Useful for quickly opening diff context files in [Sublime Text](https://www.sublimetext.com/docs/command_line.html) when you need to fast edit with not main editor.
 
-Additional features:
-- File History
-- Blame
-- Reveal in Finder
-- Copy File Path
+- **Open in Sublime Merge** - open repository in Sublime Merge
+- **File History** - open file history in Sublime Merge
+- **Blame** - open blame in Sublime Merge
+- **Reveal in Finder** - reveal file in Finder
+- **Copy File Path** - copy file path to clipboard
 
 
-![Diff context sublime merge menu](./screens/open-sublime-text.png)
+<img src="./screens/open-sublime-text.png" width="500">
 
 
 ## Changelog
